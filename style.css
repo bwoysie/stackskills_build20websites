@@ -1,0 +1,214 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  background-image: url(images/coffee-plantation-in-jamaica--rick-elkins.jpg);
+  background-repeat: no-repeat;
+  background-image: center;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-size: cover;
+  border: 1px solid white;
+  font-family: 'ABel', sans-serif;
+  font-size: 20px;
+  color: green;
+
+}
+#mountain_logo {
+  height: 100px;
+}
+
+.navbar-nav {
+  margin: 10px 0px 0px 550px;
+  background: rgba(206, 134, 134, 0.4);  
+}
+
+.navbar-brand span{
+  padding: 10px;
+  background: rgba(206, 134, 134, 0.4); 
+}
+
+@font-face {
+ font-family: "FontAwesome";
+ font-style : normal;
+ font-weight: bold;
+  src : url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.eot?v=4.3.0");
+  src : url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0") format("embedded-opentype"),
+        url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.woff2?v=4.3.0") format("woff2"),
+        url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.woff?v=4.3.0") format("woff"),
+        url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.ttf?v=4.3.0") format("truetype"),
+        url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular") format("svg");
+}
+
+h1 h2{
+  font-family: 'Gill Sans MT';
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0px;
+  padding: 0px;
+  color: 111111;
+  text-align: center;
+  background: rgba(255,255,255, 0.95);
+}
+
+h2{
+  text-align: center;
+}
+
+span{
+  color: brown;
+}
+
+#header {
+  width: 1000px;
+  margin: 150px auto;
+}
+
+#logo h1 {
+  line-height: 250px;
+  letter-spacing: 5px;
+  font-size: 19em;
+}
+
+#header-page {
+  overflow: hidden;
+  height: 600px;
+}
+
+#header {
+  overflow: hidden;
+  width: 1000px;
+  height: 150px;
+  margin: 50px auto;
+  padding: 0px, 0px;
+  /* -webkit-text-stroke-color:  rgba(250,250,250, 0.7); */
+  -webkit-text-stroke-color:  rgb(255, 215, 215,0.7);
+  -webkit-text-stroke-width: 3px;
+
+}
+
+#banner {
+  margin: 0px auto;
+  width: 1300px;
+  height: 400px;
+}
+
+#logo h1 {
+  line-height:150px;
+  letter-spacing: 5px;
+  font-size: 40px;
+}
+
+
+#sixColumns {
+  width: 1250px;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden ;
+  width: 1000px auto;
+  margin: 0px auto;
+  padding: 30px 30px;
+  color: rgb(29, 3, 3, 1);
+  background: rgba(206, 134, 134, 0.4);
+  margin: auto;
+}
+
+#sixColumns h2 {
+  padding: 10px;
+  font-size: 35px;
+  letter-spacing: -2px;
+  -webkit-text-stroke-color:  gold;
+  -webkit-text-stroke-width: 3px;
+  color: green;
+  
+}
+
+#sixColumns #column1 {
+/* float: left; */
+width: 200px;
+margin-right: 50px;
+}
+
+#sixColumns #column2 {
+  /* float: left; */
+  width: 200px;
+
+  }
+
+  #sixColumns #column3 {
+    /* float: left; */
+    width: 200px;
+    margin-left: 50px;
+ 
+    }
+
+  
+#sixColumns #column4 {
+  /* float: left; */
+  width: 200px;
+  margin-left: 50px;
+  }
+  
+#sixColumns #column5 {
+  /* float: left; */
+  width: 200px;
+  margin-left: 50px;
+  
+}
+  
+#sixColumns #column6 {
+  /* float: right; */
+  width: 200px;
+  margin-left: 50px;
+
+   
+}  
+
+#column1 p1:before{
+  font-family: 'FontAwesome';
+  content:"\f0f4";
+  font-size: 50px;
+  display: block;
+  text-align: center;
+
+}
+
+#column2 p2:before{
+  font-family: 'FontAwesome';
+  content:"\f0f4";
+  font-size: 50px;
+  display: block;
+  text-align: center;
+}
+
+#column3 p3:before{
+  font-family: 'FontAwesome';
+  content:"\f0f4";
+  font-size: 50px;
+  display: block;
+  text-align: center;
+}
+
+#column4 p4:before{
+  font-family: 'FontAwesome';
+  content:"\f0f4";
+  font-size: 50px;
+  display: block;
+  text-align: center;
+}
+
+#column5 p5:before{
+  font-family: 'FontAwesome';
+  content:"\f0f4";
+  font-size: 50px;
+  display: block;
+  text-align: center;
+}
+
+#column6 p6:before{
+  font-family: 'FontAwesome';
+  content:"\f0f4";
+  font-size: 50px;
+  display: block;
+  text-align: center;
+}
