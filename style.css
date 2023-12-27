@@ -57,6 +57,8 @@ h2{
 
 span{
   color: brown;
+  -webkit-text-stroke-color: 111111;
+  -webkit-text-stroke-width: 2px;
 }
 
 #header {
